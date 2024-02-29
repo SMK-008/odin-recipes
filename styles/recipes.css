@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar img{
+    height: 60px;
+    width: 60px;
+    
+}
+.nav-bar li{
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 20px;
+    
+}
+.nav-bar li:hover{
+border: 1px solid green;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+h1{
+    text-align: center;
+}
+h1,h2,h3,h4{
+    text-decoration: underline;
+}
+
+.first-section{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 300px;
+    align-items: center;
+}
+.first-section img{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.first-section .right{
+    text-wrap: wrap;
+    width: 300px;
+}
+.first-section p{
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+    margin: 0px;
+    text-decoration: none;
+}
+h2,h3,h4{
+    font-size: 25px;
+}
+
+.second-section{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.third-section{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+.footer{
+    background-color: grey;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* for fried-rice.html */
+.third-section ol {
+    text-wrap: wrap;
+    width: 500px;
+}
